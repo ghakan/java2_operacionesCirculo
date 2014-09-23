@@ -13,7 +13,7 @@ public class OperacionesCirculo {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\ningresa un número: ");
-		numero1 = sc.nextInt();
+		numero1 = sc.nextFloat();
 
 		resultadoArea = operaciones.area(numero1);
 		resultadoCircun = operaciones.circunferencia(numero1);
