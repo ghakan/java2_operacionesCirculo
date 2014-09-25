@@ -3,8 +3,26 @@
  */
 public class Circulo {
 
+	private float radio = 0;
+	private float circu = 0;
+	private float area = 0;
 
- //Método que calcula el area
+      public void setRadio(float num)
+        {
+              	this.radio = num;
+		this.area = 3.14f * num * num;
+		this.circu = 2 * 3.14f * num;
+        }
+
+ 	public float getArea() {
+        return area;
+    }
+ 	public float getCircu() {
+        return circu;
+    }
+	
+
+ /*Método que calcula el area
  public float area (float num) {
 
 	float pi = 3.14f;
@@ -23,5 +41,5 @@ public class Circulo {
 	result = 2 * pi * num;
 	return result;
  }
-
+*/
 }
